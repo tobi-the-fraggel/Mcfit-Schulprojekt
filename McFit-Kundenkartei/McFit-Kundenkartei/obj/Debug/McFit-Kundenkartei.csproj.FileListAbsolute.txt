@@ -1,0 +1,36 @@
+D:\ITS-15-a\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe.config
+D:\ITS-15-a\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe
+D:\ITS-15-a\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.pdb
+D:\ITS-15-a\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csprojResolveAssemblyReference.cache
+D:\ITS-15-a\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Properties.Resources.resources
+D:\ITS-15-a\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csproj.GenerateResource.Cache
+D:\ITS-15-a\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.exe
+D:\ITS-15-a\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.pdb
+D:\ITS-15-a\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Kundenverwaltung.resources
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe.config
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.exe
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.pdb
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csprojResolveAssemblyReference.cache
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Kundenverwaltung.resources
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Properties.Resources.resources
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csproj.GenerateResource.Cache
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.pdb
+F:\Berufsschule\AWE McFit\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe.config
+F:\Berufsschule\AWE McFit\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.exe
+F:\Berufsschule\AWE McFit\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.pdb
+F:\Berufsschule\AWE McFit\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csprojResolveAssemblyReference.cache
+F:\Berufsschule\AWE McFit\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Kundenverwaltung.resources
+F:\Berufsschule\AWE McFit\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Properties.Resources.resources
+F:\Berufsschule\AWE McFit\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csproj.GenerateResource.Cache
+F:\Berufsschule\AWE McFit\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe
+F:\Berufsschule\AWE McFit\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.pdb
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe.config
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.exe
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.pdb
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csprojResolveAssemblyReference.cache
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Kundenverwaltung.resources
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Properties.Resources.resources
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csproj.GenerateResource.Cache
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe
+F:\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.pdb
