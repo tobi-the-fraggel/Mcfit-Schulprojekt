@@ -23,7 +23,7 @@ namespace McFit_Kundenkartei
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            radioButton_Kunde.Checked = true;
+            radioButton_Kunde.Checked = true;            
         }
 
         private void button_Übernehmen_Click(object sender, EventArgs e)

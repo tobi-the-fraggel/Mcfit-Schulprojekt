@@ -168,7 +168,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Yellow;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.label_Mitarbeiternummer);
             this.panel1.Controls.Add(this.label_Gehalt);
             this.panel1.Controls.Add(this.label_Status);
@@ -368,7 +368,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Yellow;
+            this.BackColor = System.Drawing.Color.FromArgb(51, 65, 79);
             this.ClientSize = new System.Drawing.Size(663, 486);
             this.Controls.Add(this.listBox_Kunden);
             this.Controls.Add(this.label_boxKunden);
