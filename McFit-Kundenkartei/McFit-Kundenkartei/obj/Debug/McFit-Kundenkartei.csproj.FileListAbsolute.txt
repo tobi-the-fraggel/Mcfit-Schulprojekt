@@ -49,3 +49,9 @@ Z:\repos\Mcfit-Schulprojekt-master\McFit-Kundenkartei\McFit-Kundenkartei\obj\Deb
 Z:\repos\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe.config
 Z:\repos\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.exe
 Z:\repos\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.pdb
+Z:\repos\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.exe
+Z:\repos\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\bin\Debug\McFit-Kundenkartei.pdb
+Z:\repos\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csprojResolveAssemblyReference.cache
+Z:\repos\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Kundenverwaltung.resources
+Z:\repos\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit_Kundenkartei.Properties.Resources.resources
+Z:\repos\McFit-Kundenkartei-Bennet_Torben\McFit-Kundenkartei\McFit-Kundenkartei\obj\Debug\McFit-Kundenkartei.csproj.GenerateResource.Cache

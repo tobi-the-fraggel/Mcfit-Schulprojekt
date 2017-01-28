@@ -92,6 +92,7 @@
             // label_Vorname
             // 
             this.label_Vorname.AutoSize = true;
+            this.label_Vorname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
             this.label_Vorname.Location = new System.Drawing.Point(27, 60);
             this.label_Vorname.Name = "label_Vorname";
             this.label_Vorname.Size = new System.Drawing.Size(52, 13);
@@ -101,6 +102,7 @@
             // label_Nachname
             // 
             this.label_Nachname.AutoSize = true;
+            this.label_Nachname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
             this.label_Nachname.Location = new System.Drawing.Point(17, 104);
             this.label_Nachname.Name = "label_Nachname";
             this.label_Nachname.Size = new System.Drawing.Size(62, 13);
@@ -110,6 +112,7 @@
             // label_Geburtsdatum
             // 
             this.label_Geburtsdatum.AutoSize = true;
+            this.label_Geburtsdatum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
             this.label_Geburtsdatum.Location = new System.Drawing.Point(3, 149);
             this.label_Geburtsdatum.Name = "label_Geburtsdatum";
             this.label_Geburtsdatum.Size = new System.Drawing.Size(76, 13);
@@ -199,7 +202,8 @@
             // label_Mitarbeiternummer
             // 
             this.label_Mitarbeiternummer.AutoSize = true;
-            this.label_Mitarbeiternummer.Location = new System.Drawing.Point(241, 41);
+            this.label_Mitarbeiternummer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
+            this.label_Mitarbeiternummer.Location = new System.Drawing.Point(240, 41);
             this.label_Mitarbeiternummer.Name = "label_Mitarbeiternummer";
             this.label_Mitarbeiternummer.Size = new System.Drawing.Size(93, 13);
             this.label_Mitarbeiternummer.TabIndex = 28;
@@ -208,7 +212,8 @@
             // label_Gehalt
             // 
             this.label_Gehalt.AutoSize = true;
-            this.label_Gehalt.Location = new System.Drawing.Point(242, 85);
+            this.label_Gehalt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
+            this.label_Gehalt.Location = new System.Drawing.Point(240, 85);
             this.label_Gehalt.Name = "label_Gehalt";
             this.label_Gehalt.Size = new System.Drawing.Size(38, 13);
             this.label_Gehalt.TabIndex = 27;
@@ -217,7 +222,8 @@
             // label_Status
             // 
             this.label_Status.AutoSize = true;
-            this.label_Status.Location = new System.Drawing.Point(243, 130);
+            this.label_Status.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
+            this.label_Status.Location = new System.Drawing.Point(241, 130);
             this.label_Status.Name = "label_Status";
             this.label_Status.Size = new System.Drawing.Size(37, 13);
             this.label_Status.TabIndex = 26;
@@ -226,6 +232,7 @@
             // label_Gewicht
             // 
             this.label_Gewicht.AutoSize = true;
+            this.label_Gewicht.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
             this.label_Gewicht.Location = new System.Drawing.Point(242, 130);
             this.label_Gewicht.Name = "label_Gewicht";
             this.label_Gewicht.Size = new System.Drawing.Size(46, 13);
@@ -235,6 +242,7 @@
             // label_Groesse
             // 
             this.label_Groesse.AutoSize = true;
+            this.label_Groesse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
             this.label_Groesse.Location = new System.Drawing.Point(241, 41);
             this.label_Groesse.Name = "label_Groesse";
             this.label_Groesse.Size = new System.Drawing.Size(74, 13);
@@ -279,6 +287,7 @@
             // radioButton_Mitarbeiter
             // 
             this.radioButton_Mitarbeiter.AutoSize = true;
+            this.radioButton_Mitarbeiter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
             this.radioButton_Mitarbeiter.Location = new System.Drawing.Point(37, 26);
             this.radioButton_Mitarbeiter.Name = "radioButton_Mitarbeiter";
             this.radioButton_Mitarbeiter.Size = new System.Drawing.Size(74, 17);
@@ -291,6 +300,7 @@
             // radioButton_Kunde
             // 
             this.radioButton_Kunde.AutoSize = true;
+            this.radioButton_Kunde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
             this.radioButton_Kunde.Location = new System.Drawing.Point(37, 3);
             this.radioButton_Kunde.Name = "radioButton_Kunde";
             this.radioButton_Kunde.Size = new System.Drawing.Size(56, 17);
@@ -302,6 +312,8 @@
             // 
             // listBox_Mitarbeiter
             // 
+            this.listBox_Mitarbeiter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
+            this.listBox_Mitarbeiter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(79)))));
             this.listBox_Mitarbeiter.FormattingEnabled = true;
             this.listBox_Mitarbeiter.Location = new System.Drawing.Point(392, 54);
             this.listBox_Mitarbeiter.Name = "listBox_Mitarbeiter";
@@ -332,8 +344,9 @@
             // label_boxMitarbeiter
             // 
             this.label_boxMitarbeiter.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label_boxMitarbeiter.BackColor = System.Drawing.Color.White;
+            this.label_boxMitarbeiter.BackColor = System.Drawing.Color.Transparent;
             this.label_boxMitarbeiter.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_boxMitarbeiter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
             this.label_boxMitarbeiter.Location = new System.Drawing.Point(392, 18);
             this.label_boxMitarbeiter.Margin = new System.Windows.Forms.Padding(0);
             this.label_boxMitarbeiter.Name = "label_boxMitarbeiter";
@@ -345,8 +358,9 @@
             // label_boxKunden
             // 
             this.label_boxKunden.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label_boxKunden.BackColor = System.Drawing.Color.White;
+            this.label_boxKunden.BackColor = System.Drawing.Color.Transparent;
             this.label_boxKunden.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label_boxKunden.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
             this.label_boxKunden.Location = new System.Drawing.Point(392, 18);
             this.label_boxKunden.Margin = new System.Windows.Forms.Padding(0);
             this.label_boxKunden.Name = "label_boxKunden";
@@ -357,6 +371,8 @@
             // 
             // listBox_Kunden
             // 
+            this.listBox_Kunden.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(200)))), ((int)(((byte)(1)))));
+            this.listBox_Kunden.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(79)))));
             this.listBox_Kunden.FormattingEnabled = true;
             this.listBox_Kunden.Location = new System.Drawing.Point(392, 54);
             this.listBox_Kunden.Name = "listBox_Kunden";
@@ -368,7 +384,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(51, 65, 79);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(79)))));
             this.ClientSize = new System.Drawing.Size(663, 486);
             this.Controls.Add(this.listBox_Kunden);
             this.Controls.Add(this.label_boxKunden);
