@@ -35,17 +35,36 @@ namespace McFit_Kundenkartei
             //debugBox.SelectedText = p.Firstname + " " + "\n" + p.Lastname + "\n" + p.DateOfBirth;
 
             //Kunden k = new Kunden();
-            Kunden k = new Kunden(textBox_Vorname.Text, textBox_Nachname.Text, textBox_Geburtsdatum.Text, Convert.ToDouble(textBox_Gewicht.Text), Convert.ToDouble(textBox_Groesse.Text));
-            Liste.Add(k);
-            this.refreshListe();
-            //MessageBox.Show(p.Firstname + " " + p.Lastname + "\n" + p.DateOfBirth);
+            if (this.radioButton_Kunde.Checked)
+            {
+                Kunden k = new Kunden(textBox_Vorname.Text, textBox_Nachname.Text, textBox_Geburtsdatum.Text, Convert.ToDouble(textBox_Gewicht.Text), Convert.ToDouble(textBox_Groesse.Text));
+                Liste.Add(k);
+                this.refreshListe();
+                //MessageBox.Show(p.Firstname + " " + p.Lastname + "\n" + p.DateOfBirth);
+            }
+            else if (this.radioButton_Mitarbeiter.Checked)
+            {
+                Mitarbeiter m = new Mitarbeiter(textBox_Vorname.Text, textBox_Nachname.Text, textBox_Geburtsdatum.Text, Convert.ToInt32(textBox_Mitarbeiternummer.Text), Convert.ToDouble(textBox_Gehalt.Text), textBox_Status.Text);
+                Liste.Add(m);
+                this.refreshListe();
+            }
         }
 
         private void refreshListe()
         {
-            this.listBox_Mitarbeiter.Items.Clear();
-            foreach (Kunden k in Liste)
-                this.listBox_Kunden.Items.Add(k.Firstname + " " + k.Lastname + " " + k.DateOfBirth + " " + k.Groeße + "cm" + " " + k.Gewicht + "kg" + " " + k.getBMI());
+            if (this.radioButton_Kunde.Checked)
+            {
+                this.listBox_Kunden.Items.Clear();
+                foreach (Kunden k in Liste)
+                    this.listBox_Kunden.Items.Add(k.Firstname + " " + k.Lastname + " " + k.DateOfBirth + " " + k.Groeße + "cm" + " " + k.Gewicht + "kg" + " " + k.getBMI());
+                this.listBox_Mitarbeiter.Items.Clear();
+            }
+            else if (this.radioButton_Mitarbeiter.Checked)
+            {
+                foreach (Mitarbeiter m in Liste)
+                    this.listBox_Mitarbeiter.Items.Add(m.Firstname + " " + m.Lastname + " " + m.DateOfBirth + " " + m.Kundennummer + " " + m.Gehalt + "€" + " " + m.Status);
+                this.listBox_Mitarbeiter.Items.Clear();
+            }
         }
 
         private void listBox_Mitarbeiter_SelectedIndexChanged(object sender, EventArgs e)
