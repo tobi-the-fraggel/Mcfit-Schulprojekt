@@ -23,7 +23,7 @@ namespace McFit_Kundenkartei
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            radioButton_Kunde.Checked = true;
         }
 
         private void button_Übernehmen_Click(object sender, EventArgs e)
@@ -34,22 +34,23 @@ namespace McFit_Kundenkartei
 
             //debugBox.SelectedText = p.Firstname + " " + "\n" + p.Lastname + "\n" + p.DateOfBirth;
 
-            Person p = new Person(textBox_Vorname.Text, textBox_Nachname.Text, textBox_Geburtsdatum.Text);
-            Liste.Add(p);
+            //Kunden k = new Kunden();
+            Kunden k = new Kunden(textBox_Vorname.Text, textBox_Nachname.Text, textBox_Geburtsdatum.Text, Convert.ToDouble(textBox_Gewicht.Text), Convert.ToDouble(textBox_Groesse.Text));
+            Liste.Add(k);
             this.refreshListe();
             //MessageBox.Show(p.Firstname + " " + p.Lastname + "\n" + p.DateOfBirth);
         }
 
         private void refreshListe()
         {
-            this.listBox_Ausgabe.Items.Clear();
-            foreach (Person p in Liste)
-                this.listBox_Ausgabe.Items.Add(p.Firstname + " " + p.Lastname + " " + p.DateOfBirth);
+            this.listBox_Mitarbeiter.Items.Clear();
+            foreach (Kunden k in Liste)
+                this.listBox_Kunden.Items.Add(k.Firstname + " " + k.Lastname + " " + k.DateOfBirth + " " + k.Groeße + "cm" + " " + k.Gewicht + "kg" + " " + k.getBMI());
         }
 
-        private void listBox_Ausgabe_SelectedIndexChanged(object sender, EventArgs e)
+        private void listBox_Mitarbeiter_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int i = listBox_Ausgabe.SelectedIndex;
+            int i = listBox_Mitarbeiter.SelectedIndex;
             textBox_Vorname.Text = Liste[i].Firstname;
             textBox_Nachname.Text = Liste[i].Lastname;
             textBox_Geburtsdatum.Text = Liste[i].DateOfBirth;
@@ -58,7 +59,7 @@ namespace McFit_Kundenkartei
 
         private void button_Löschen_Click(object sender, EventArgs e)
         {
-            int i = listBox_Ausgabe.SelectedIndex;
+            int i = listBox_Mitarbeiter.SelectedIndex;
             if (i == -1) return;
             Liste.RemoveAt(i);
             this.refreshListe();
@@ -68,10 +69,10 @@ namespace McFit_Kundenkartei
 
         private void button_Ändern_Click(object sender, EventArgs e)
         {
-            int i = listBox_Ausgabe.SelectedIndex;
-            Liste[listBox_Ausgabe.SelectedIndex].Firstname = textBox_Vorname.Text;
-            Liste[listBox_Ausgabe.SelectedIndex].Lastname = textBox_Nachname.Text;
-            Liste[listBox_Ausgabe.SelectedIndex].DateOfBirth = textBox_Geburtsdatum.Text;
+            int i = listBox_Mitarbeiter.SelectedIndex;
+            Liste[listBox_Mitarbeiter.SelectedIndex].Firstname = textBox_Vorname.Text;
+            Liste[listBox_Mitarbeiter.SelectedIndex].Lastname = textBox_Nachname.Text;
+            Liste[listBox_Mitarbeiter.SelectedIndex].DateOfBirth = textBox_Geburtsdatum.Text;
             refreshListe();
         }
 
@@ -115,13 +116,14 @@ namespace McFit_Kundenkartei
                 textBox_Mitarbeiternummer.Clear();
                 textBox_Gehalt.Clear();
                 textBox_Status.Clear();
+                //listBox_Mitarbeiter.ClearSelected();
 
-                textBox_Kundennummer.Visible = false;
-                label_Kundennummer.Visible = false;
-                textBox_Gebuehren.Visible = false;
-                label_Gebuehren.Visible = false;
-                textBox_BMI.Visible = false;
-                label_BMI.Visible = false;
+                textBox_Groesse.Visible = false;
+                label_Groesse.Visible = false;
+                textBox_Gewicht.Visible = false;
+                label_Gewicht.Visible = false;
+                listBox_Kunden.Visible = false;
+                label_boxKunden.Visible = false;
 
                 textBox_Mitarbeiternummer.Visible = true;
                 label_Mitarbeiternummer.Visible = true;
@@ -129,6 +131,8 @@ namespace McFit_Kundenkartei
                 label_Gehalt.Visible = true;
                 textBox_Status.Visible = true;
                 label_Status.Visible = true;
+                listBox_Mitarbeiter.Visible = true;
+                label_boxMitarbeiter.Visible = true;
                
             }
         }
@@ -137,9 +141,9 @@ namespace McFit_Kundenkartei
         {
             if (radioButton_Kunde.Checked)
             {
-                textBox_Kundennummer.Clear();
-                textBox_Gebuehren.Clear();
-                textBox_BMI.Clear();
+                textBox_Groesse.Clear();
+                textBox_Gewicht.Clear();
+                //listBox_Kunden.ClearSelected();
 
                 textBox_Mitarbeiternummer.Visible = false;
                 label_Mitarbeiternummer.Visible = false;
@@ -147,13 +151,15 @@ namespace McFit_Kundenkartei
                 label_Gehalt.Visible = false;
                 textBox_Status.Visible = false;
                 label_Status.Visible = false;
+                listBox_Mitarbeiter.Visible = false;
+                label_boxMitarbeiter.Visible = false;
 
-                textBox_Kundennummer.Visible = true;
-                label_Kundennummer.Visible = true;
-                textBox_Gebuehren.Visible = true;
-                label_Gebuehren.Visible = true;
-                textBox_BMI.Visible = true;
-                label_BMI.Visible = true;
+                textBox_Groesse.Visible = true;
+                label_Groesse.Visible = true;
+                textBox_Gewicht.Visible = true;
+                label_Gewicht.Visible = true;
+                listBox_Kunden.Visible = true;
+                label_boxKunden.Visible = true;
             }
         }
 

@@ -6,7 +6,53 @@ using System.Threading.Tasks;
 
 namespace McFit_Kundenkartei
 {
-    class Mitarbeiter
-    {
+        [Serializable()]
+        class Mitarbeiter : Person
+        {
+            //Instanzvariable und Properties
+            private double groeße;
+
+            public double Groeße
+            {
+                get { return groeße; }
+                set
+                {
+                    if (value > 0.0)
+                        groeße = value;
+                    else groeße = 1;
+                }
+            }
+            private double gewicht;
+
+            public double Gewicht
+            {
+                get { return gewicht; }
+                set
+                {
+                    if (gewicht >= 0)
+                        gewicht = value;
+                    else gewicht = 0;
+                }
+            }
+
+
+            // Konstruktoren
+            public Mitarbeiter()
+                : base()
+            {
+                this.gewicht = 0;
+                this.groeße = 1;
+            }
+            public Mitarbeiter(string fn,
+                            string ln,
+                            string dob,
+                            double m,
+                            double g)
+                : base(fn, ln, dob)
+            {
+                Gewicht = m;
+                Groeße = g;
+            }
     }
 }
+
